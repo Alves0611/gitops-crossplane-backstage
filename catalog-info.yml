@@ -2,17 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: gitops-crossplane
-  description: GitOps Crossplane
+  description: GitOps Crossplane Studying Backstage
+  annotations:
+    github.com/project-slug: Alves0611/gitops-crossplane-backstage
 spec:
   type: service
-  lifecycle: studying
-  owner: guests
-  url: https://github.com/Alves0611/gitops-crossplane-backstage.git
-  system: gitops-crossplane
-  environment: studying
-  tags:
-    - devops
-    - gitops
-    - crossplane
-    - aws
-    - infrastructure-as-code
+  owner: sre
+  lifecycle: experimental
