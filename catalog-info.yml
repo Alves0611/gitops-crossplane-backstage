@@ -5,6 +5,7 @@ metadata:
   description: GitOps Crossplane Studying Backstage
   annotations:
     github.com/project-slug: Alves0611/gitops-crossplane-backstage
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: sre
